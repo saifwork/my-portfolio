@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-// @ts-expect-error TS2882: side-effect CSS import is resolved by Next.js at build time.
+
 import "./globals.css";
 
 import { ThemeProvider } from "@/components/theme-provider";
